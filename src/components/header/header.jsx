@@ -1,11 +1,11 @@
 import './header.scss'
 import Button from '../button/button';
+import {ReactComponent as Logo}  from '../../assets/svgviewer.svg'
 const Header = () => {
     return (
         <header className="App-header">
             <div className='logo'>
-                logo
-                {/* <img/> */}
+                <Logo/>
             </div>
           <nav>
             <ul className='list'>
