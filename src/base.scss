@@ -1,0 +1,29 @@
+//varaible
+$app-bg: #ccc;
+$header: rgba($app-bg, 0.88);
+$text-color:#000;
+
+$primary: #f1ce;
+$secondary:#5d2dbc;
+
+$white:#fff;
+$black:#000;
+
+.primary{
+    background-color: $primary;
+    color: $text-color;
+}
+.secondary{
+    background-color: $secondary;
+    color: $white;
+}
+button{
+    border: 0px solid #000;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+  
+}
+button:hover{
+    opacity: 0.8;
+}

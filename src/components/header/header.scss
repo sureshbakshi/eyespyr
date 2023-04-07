@@ -1,0 +1,35 @@
+@import '../../base.scss';
+
+.App-header {
+    background-color: $header;
+    min-height: 60px;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    .logo{
+        border: 1px solid #000;
+        width: 200px;
+        height: 50px;
+    }
+    .list {
+        margin: 0px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 60px;
+        padding: 0px;
+        li {
+            padding-left: 10px;
+            color: $text-color;
+        }
+        li:hover {
+            cursor: pointer;
+            color: rgba($text-color, 0.8);
+        }
+    }
+  
+}
